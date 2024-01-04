@@ -1,0 +1,252 @@
+python main.py
+
+Select:
+[1] Single Test Puzzle
+[2] Multi-Test Puzzle
+[3] Exit
+Enter your choice: 1
+
+Select Input Method:
+[1] Random
+[2] File
+Enter your choice: 1
+
+Randomly generated puzzle:
+7 2 1
+4 3 5
+0 6 8
+
+Select H Function:
+[1] H1
+[2] H2
+ 1
+
+Enter Solution Depth (2-20): 20
+
+Solution found
+Step: 0
+7 2 1
+4 3 5
+0 6 8
+
+Step: 1
+7 2 1
+0 3 5
+4 6 8
+
+Step: 2
+7 2 1
+3 0 5
+4 6 8
+
+Step: 3
+7 0 1
+3 2 5
+4 6 8
+
+Step: 4
+0 7 1
+3 2 5
+4 6 8
+
+Step: 5
+3 7 1
+0 2 5
+4 6 8
+
+Step: 6
+3 7 1
+4 2 5
+0 6 8
+
+Step: 7
+3 7 1
+4 2 5
+6 0 8
+
+Step: 8
+3 7 1
+4 2 5
+6 8 0
+
+Step: 9
+3 7 1
+4 2 0
+6 8 5
+
+Step: 10
+3 7 1
+4 0 2
+6 8 5
+
+Step: 11
+3 0 1
+4 7 2
+6 8 5
+
+Step: 12
+3 1 0
+4 7 2
+6 8 5
+
+Step: 13
+3 1 2
+4 7 0
+6 8 5
+
+Step: 14
+3 1 2
+4 7 5
+6 8 0
+
+Step: 15
+3 1 2
+4 7 5
+6 0 8
+
+Step: 16
+3 1 2
+4 0 5
+6 7 8
+
+Step: 17
+3 1 2
+0 4 5
+6 7 8
+
+Step: 18
+0 1 2
+3 4 5
+6 7 8
+
+Search Cost: 2230
+
+
+Select:
+[1] Single Test Puzzle
+[2] Multi-Test Puzzle
+[3] Exit
+Enter your choice: 1
+
+Select Input Method:
+[1] Random
+[2] File
+Enter your choice: 2
+Enter your 8-puzzle configuration row by row (use 0 for the empty tile):
+1 2 5
+4 0 8
+3 6 7
+
+Select H Function:
+[1] H1
+[2] H2
+ 2
+
+Enter Solution Depth (2-20): 8
+
+Solution found
+Step: 0
+1 2 5
+4 0 8
+3 6 7
+
+Step: 1
+1 2 5
+0 4 8
+3 6 7
+
+Step: 2
+1 2 5
+3 4 8
+0 6 7
+
+Step: 3
+1 2 5
+3 4 8
+6 0 7
+
+Step: 4
+1 2 5
+3 4 8
+6 7 0
+
+Step: 5
+1 2 5
+3 4 0
+6 7 8
+
+Step: 6
+1 2 0
+3 4 5
+6 7 8
+
+Step: 7
+1 0 2
+3 4 5
+6 7 8
+
+Step: 8
+0 1 2
+3 4 5
+6 7 8
+
+Search Cost: 22
+
+
+Select:
+[1] Single Test Puzzle
+[2] Multi-Test Puzzle
+[3] Exit
+Enter your choice: 1
+
+Select Input Method:
+[1] Random
+[2] File
+Enter your choice: 2
+
+Enter your 8-puzzle configuration row by row (use 0 for the empty tile):
+1 2 5
+3 4 8
+6 7 0
+
+Select H Function:
+[1] H1
+[2] H2
+ 1
+
+Enter Solution Depth (2-20): 5
+
+Solution found
+Step: 0
+1 2 5
+3 4 8
+6 7 0
+
+Step: 1
+1 2 5
+3 4 0
+6 7 8
+
+Step: 2
+1 2 0
+3 4 5
+6 7 8
+
+Step: 3
+1 0 2
+3 4 5
+6 7 8
+
+Step: 4
+0 1 2
+3 4 5
+6 7 8
+
+Search Cost: 5
+
+
+Select:
+[1] Single Test Puzzle
+[2] Multi-Test Puzzle
+[3] Exit
+Enter your choice: 3
