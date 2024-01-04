@@ -3,6 +3,7 @@ from heuristic_function import heuristic_function
 from a_star_search import a_star_search
 from input_handler import input_handler
 from output_handler import output_handler
+import time
 
 
 class test_choice():
@@ -56,11 +57,17 @@ class test_choice():
             # Choose a solution depth
             max_depth = int(input("\nEnter Solution Depth (2-20): "))
 
+            start_time = time.time()
+
             # Perform A* search to get the result and search cost
             result, search_cost = a_star_search.a_star_search(initial_state, heuristic_func, max_depth)
 
+            end_time = time.time()
+            runtime = (end_time - start_time) * 1000
+
             # Print the result
             output_handler.print_solution(result, search_cost)
+            print("Runtime: %.3f ms" % runtime)
 
             test_cases = test_cases - 1
             count = count + 1
