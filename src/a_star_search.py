@@ -47,6 +47,8 @@ class a_star_search:
 
                     # Add state to frontier with calculated cost
                     heapq.heappush(frontier, (total_cost, new_state))
+                else:
+                    search_cost += 1
         
         # If no solution found, return search cost anyway
         return None, search_cost  # No solution found, return search cost anyway
