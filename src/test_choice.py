@@ -40,8 +40,10 @@ class test_choice():
 
         # Choose a number of test cases
         test_cases = int(input("Number of test cases: "))
-
+        
+        count = 1
         while test_cases > 0:
+            print('Test case {}:'.format(count))
             row = input().strip().split()
             initial_board = tuple(int(num) for num in row)
             
@@ -61,6 +63,8 @@ class test_choice():
             output_handler.print_solution(result, search_cost)
 
             test_cases = test_cases - 1
+            count = count + 1
+
 
 
 # Choose between:
